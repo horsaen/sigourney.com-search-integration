@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/horsaen/sigourney.com-search-integration#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "meilisearch": "^0.27.0"
   }
 }
