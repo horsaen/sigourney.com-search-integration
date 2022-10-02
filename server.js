@@ -28,4 +28,7 @@ function integration(api){
         client.index(api.id).deleteAllDocuments()
         client.index(api.id).addDocuments('./data/' + api.id + '.json')
     })
+    .catch((err) => {
+        console.log(err)
+    })
 }
